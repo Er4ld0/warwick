@@ -157,6 +157,7 @@ section.container {
     justify-content: center;
     flex-direction: row;
     border-style: groove;
+    border-color: var(--alt_color);
     gap: 5px;
     padding: 80px;
     margin-bottom: 40px;
