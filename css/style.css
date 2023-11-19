@@ -269,6 +269,21 @@ section.container {
     width: 50%;
 }
 
-section.abilities{
-    
+table{
+    width: 200px;
+    height: 100px;
+    padding: 20px 0;
+    border-style: groove;
+    border-color: var(--alt_color);
+    gap: 80px;
+}
+
+.table{
+    display: grid;
+    margin: 0 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+th{
+    color: var(--alt_color);
 }
