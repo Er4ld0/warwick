@@ -1,0 +1,43 @@
+HTML:
+<span class="style__Wrapper-sc-2w8ufp-0 iNvgPe style__StyledChampionDifficulty-sc-8gkpub-16 uehEe"
+        aria-label="champion-difficulty.ranking.low"><span data-testid="overview:difficultyicon"
+            class="style__Container-sc-2w8ufp-1 gJUKoL"><span class="style__Item-sc-2w8ufp-2 endGRq"></span><span
+                class="style__Item-sc-2w8ufp-2 jxACDT"></span><span
+                class="style__Item-sc-2w8ufp-2 jxACDT"></span></span></span>
+
+CSS:
+.uehEe {
+    display: block;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+}
+
+.iNvgPe {
+    max-width: 100%;
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+}
+
+.endGRq {
+    display: inline-block;
+    width: 30.6667%;
+    height: 100%;
+    padding-right: 4%;
+    opacity: 1;
+    background-color: rgb(8, 215, 247);
+    background-clip: content-box;
+    transform: skewX(-40deg);
+}
+
+.jxACDT {
+    display: inline-block;
+    width: 30.6667%;
+    height: 100%;
+    padding-right: 4%;
+    opacity: 0.2;
+    background-color: rgb(8, 215, 247);
+    background-clip: content-box;
+    transform: skewX(-40deg);
+}

@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url(../fonts/beaufort-for-lol/BeaufortforLOL-BoldItalic.ttf) format(truetype);
+}
+
+:root {
+    --font01: 'Beaufort';
+    --font02: 'Spiegel', "Arial Narrow", Arial, sans-serif;
+    --alt_color: #A98A4E;
+    --background: #000913;
+    --iniciar: #282828;
+    --iniciar_active: #5e5d5d;
+    --jogar: #0BC4E2;
+    --jogar_active: #aadbe2;
+    --menu: #00012262;
+}
+
+html,
+body {
+    background-color: var(--background);
+    display: block;
+    width: 100%;
+    gap: 30px;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+/*Menu*/
+
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: var(--menu);
+    position: fixed;
+    z-index: 1;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*Itens do Menu*/
+
+.logo {
+    width: 70px;
+}
+
+.internos {
+    font-family: var(--font02);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    margin: 20px;
+}
+
+.links {
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font02);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.links:hover {
+    background-color: var(--iniciar);
+    cursor: pointer;
+    border-style: solid;
+    border-top: none;
+    border-bottom-color: var(--jogar);
+
+}
+
+.externos {
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    gap: 50px;
+    margin-left: 0px;
+
+}
+
+a,
+a#iniciar,
+a#jogar {
+    color: white;
+    font-family: var(--font02);
+}
+
+.iniciar,
+.jogar {
+    border-radius: 15px;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    font-family: var(--font02);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.iniciar {
+    background-color: var(--iniciar);
+}
+
+.iniciar:hover {
+    background-color: var(--iniciar_active);
+    cursor: pointer;
+}
+
+.jogar {
+    background-color: var(--jogar);
+}
+
+.jogar:hover {
+    background-color: var(--jogar_active);
+    cursor: pointer;
+}
+
+section.info{
+    top: 1000px;
+    left: 390px;
+}
+
+section.container {
+    font-family: var(--font02);
+    text-align: center;
+    color: white;
+    width: 984px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-style: groove;
+    gap: 5px;
+    padding: 80px;
+    margin-bottom: 40px;
+}
+
+.ww-img {
+    width: 1104px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.texto_1 {
+    color: white;
+    font-family: var(--font01);
+    font-weight: bolder;
+    font-size: 32px;
+    top: 680px;
+    left: 450px;
+    position: absolute;
+}
+
+.texto_2 {
+    color: white;
+    font-family: var(--font01);
+    font-weight: bolder;
+    font-size: 32px;
+    top: 700px;
+    left: 390px;
+    position: absolute;
+}
+
+.texto_1 {
+    font-size: 24px;
+}
+
+.texto_2 {
+    font-size: 94px;
+}
+
+
+
+.stats {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.function_container {
+    height: 90px;
+    text-align: center;
+}
+
+.function_container h4,
+.dif h4,
+.lore {
+    color: white;
+}
+
+.function_container p,
+.dif p {
+    color: var(--alt_color);
+
+}
+
+.function {
+    width: 50px;
+}
+
+.dif_container {
+    height: 90px;
+    text-align: center;
+}
+
+.dif {
+    max-width: 100%;
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+}
+
+.dif h4{
+    margin-top: 34px;
+}
+
+.item_1 {
+    display: inline-block;
+    width: 30.6667%;
+    height: 100%;
+    padding-right: 4%;
+    opacity: 1;
+    background-color: rgb(8, 215, 247);
+    background-clip: content-box;
+    transform: skewX(-40deg);
+}
+
+.item_2 {
+    display: inline-block;
+    width: 30.6667%;
+    height: 100%;
+    padding-right: 4%;
+    opacity: 0.2;
+    background-color: rgb(8, 215, 247);
+    background-clip: content-box;
+    transform: skewX(-40deg);
+}
+
+.lore{
+    width: 50%;
+}
+
+section.abilities{
+    
+}
