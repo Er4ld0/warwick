@@ -271,19 +271,24 @@ section.container {
 
 table{
     width: 200px;
-    height: 100px;
+    height: 150px;
     padding: 20px 0;
     border-style: groove;
     border-color: var(--alt_color);
     gap: 80px;
+    text-align: center;
 }
 
-.table{
-    display: grid;
+.table_1, .table_2{
+
     margin: 0 30px;
     grid-template-columns: 1fr 1fr;
 }
 
 th{
     color: var(--alt_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
