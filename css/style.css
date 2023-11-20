@@ -278,19 +278,19 @@ a {
 
 /*Configs da Section de Habilidades*/
 
-.content__skill__title {
+.skill__title {
     display: flex;
     align-items: flex-start;
     justify-content: left;
 }
 
-.content__skill__info {
+.skill__info {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.content__skill__img {
+.skill__img {
     width: 60px;
     margin: 0;
     padding: 0;
@@ -299,12 +299,12 @@ a {
     justify-content: left;
 }
 
-.content__skill__description {
+.skill__description {
     font-family: var(--font01);
     font-size: 15px;
     text-align: justify;
 }
 
-.content__skill__demo {
+.skill__demo {
     width: 500px;
 }
