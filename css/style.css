@@ -52,7 +52,7 @@ h1 {
     font-family: var(--font01);
 }
 
-h3.skill_title{
+h3.skill_title {
     font-family: var(--font02);
 }
 
@@ -66,7 +66,7 @@ h3.skill_title{
     z-index: 1;
 }
 
-.nav_menu {
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -74,11 +74,11 @@ h3.skill_title{
 
 /*Itens do Menu*/
 
-.logo {
+.menu__logo {
     width: 70px;
 }
 
-.internos {
+.menu__links__internos {
     font-family: var(--font02);
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ h3.skill_title{
     margin: 20px;
 }
 
-.links {
+.menu__links {
     border-radius: 15px;
     width: 150px;
     height: 40px;
@@ -100,7 +100,7 @@ h3.skill_title{
     font-weight: 800;
 }
 
-.links:hover {
+.menu__links:hover {
     background-color: var(--iniciar);
     cursor: pointer;
     border-style: solid;
@@ -109,7 +109,7 @@ h3.skill_title{
 
 }
 
-.externos {
+.menu__links__externos {
     display: flex;
     align-items: baseline;
     justify-content: right;
@@ -157,9 +157,32 @@ a#jogar {
     cursor: pointer;
 }
 
-section.info {
-    top: 1000px;
+/*Infos da Página Inicial*/
+
+.ww-img {
+    width: 1104px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.info__title__1 {
+    color: white;
+    font-family: var(--font01);
+    font-weight: bolder;
+    font-size: 24px;
+    top: 680px;
+    left: 450px;
+    position: absolute;
+}
+
+.info__title__2 {
+    color: white;
+    font-family: var(--font01);
+    font-weight: bolder;
+    font-size: 94px;
+    top: 700px;
     left: 390px;
+    position: absolute;
 }
 
 section.container {
@@ -192,42 +215,6 @@ section.container_2 {
     margin-bottom: 40px;
     margin-top: 80px;
 }
-
-.ww-img {
-    width: 1104px;
-    position: relative;
-    margin-top: 80px;
-}
-
-.texto_1 {
-    color: white;
-    font-family: var(--font01);
-    font-weight: bolder;
-    font-size: 32px;
-    top: 680px;
-    left: 450px;
-    position: absolute;
-}
-
-.texto_2 {
-    color: white;
-    font-family: var(--font01);
-    font-weight: bolder;
-    font-size: 32px;
-    top: 700px;
-    left: 390px;
-    position: absolute;
-}
-
-.texto_1 {
-    font-size: 24px;
-}
-
-.texto_2 {
-    font-size: 94px;
-}
-
-
 
 .stats {
     width: 50%;
@@ -338,19 +325,19 @@ th {
     margin-bottom: 17px;
 }
 
-.skills_info{
+.skills_info {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.skill_title{
+.skill_title {
     display: flex;
     align-items: flex-start;
     justify-content: left;
 }
 
-.skills{
+.skills {
     width: 60px;
     margin: 0;
     padding: 0;
@@ -359,12 +346,12 @@ th {
     justify-content: left;
 }
 
-.skill_description{
+.skill_description {
     font-family: var(--font01);
     font-size: 15px;
     text-align: justify;
 }
 
-.skill_demo{
+.skill_demo {
     width: 500px;
 }
