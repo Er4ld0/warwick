@@ -21,12 +21,14 @@
     --jogar_active: #aadbe2;
     --menu: #00012262;
 
+    /*
     --desc_azul: #07B1F0;
     --desc_amarelo: #F0B242;
     --desc_roxo: #8379FE;
     --desc_verde: #156C54;
     --desc_laranja: #FF4500;
     --desc_amarelo_fraco: #F5EE99;
+    */
 }
 
 html,
@@ -122,14 +124,14 @@ a {
     color: var(--alt_color);
 }
 
-a#iniciar,
-a#jogar {
+#menu__btn__iniciar,
+#menu__btn__jogar {
     color: white;
     font-family: var(--font02);
 }
 
-.iniciar,
-.jogar {
+.menu__btn__iniciar,
+.menu__btn__jogar {
     border-radius: 15px;
     border-style: none;
     width: 150px;
@@ -139,27 +141,27 @@ a#jogar {
     font-weight: 800;
 }
 
-.iniciar {
+.menu__btn__iniciar {
     background-color: var(--iniciar);
 }
 
-.iniciar:hover {
+.menu__btn__iniciar:hover {
     background-color: var(--iniciar_active);
     cursor: pointer;
 }
 
-.jogar {
+.menu__btn__jogar {
     background-color: var(--jogar);
 }
 
-.jogar:hover {
+.menu__btn__jogar:hover {
     background-color: var(--jogar_active);
     cursor: pointer;
 }
 
 /*Infos da Página Inicial*/
 
-.ww-img {
+.info__img {
     width: 1104px;
     position: relative;
     margin-top: 80px;
@@ -185,7 +187,9 @@ a#jogar {
     position: absolute;
 }
 
-section.container {
+/*Configs da Section da Página Inicial*/
+
+.content {
     font-family: var(--font02);
     text-align: center;
     color: white;
@@ -202,7 +206,14 @@ section.container {
     margin-bottom: 40px;
 }
 
-section.container_2 {
+.content__info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content__2 {
     font-family: var(--font02);
     text-align: center;
     color: white;
@@ -216,51 +227,30 @@ section.container_2 {
     margin-top: 80px;
 }
 
-.stats {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+/*Configs do Conteúdo da Section da Página Inicial*/
 
-.function_container {
-    height: 90px;
-    text-align: center;
-}
-
-.function_container h4,
-.dif h4,
-.lore {
-    color: white;
-}
-
-.function_container p,
-.dif p {
+.content__info p,
+.content__dif p {
     color: var(--alt_color);
 
 }
 
-.function {
+.content__info__img {
     width: 50px;
 }
 
-.dif_container {
-    height: 90px;
-    text-align: center;
-}
-
-.dif {
+.content__dif__img {
     max-width: 100%;
     width: 100px;
     height: 10px;
     display: inline-block;
 }
 
-.dif h4 {
+.content__dif__img h4 {
     margin-top: 34px;
 }
 
-.item_1 {
+.content__dif__img__1 {
     display: inline-block;
     width: 30.6667%;
     height: 100%;
@@ -271,7 +261,7 @@ section.container_2 {
     transform: skewX(-40deg);
 }
 
-.item_2 {
+.content__dif__img__2 {
     display: inline-block;
     width: 30.6667%;
     height: 100%;
@@ -286,58 +276,21 @@ section.container_2 {
     width: 50%;
 }
 
-table {
-    width: 250px;
-    height: 70px;
-    padding: 20px 0;
-    border-style: groove;
-    border-color: var(--alt_color);
-    gap: 80px;
-    text-align: center;
-}
+/*Configs da Section de Habilidades*/
 
-.tables {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 200px;
-
-}
-
-.table_1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-th {
-    color: var(--alt_color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-
-.stats_image {
-    margin-bottom: 17px;
-}
-
-.skills_info {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.skill_title {
+.content__skill__title {
     display: flex;
     align-items: flex-start;
     justify-content: left;
 }
 
-.skills {
+.content__skill__info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.content__skill__img {
     width: 60px;
     margin: 0;
     padding: 0;
@@ -346,12 +299,12 @@ th {
     justify-content: left;
 }
 
-.skill_description {
+.content__skill__description {
     font-family: var(--font01);
     font-size: 15px;
     text-align: justify;
 }
 
-.skill_demo {
+.content__skill__demo {
     width: 500px;
 }
