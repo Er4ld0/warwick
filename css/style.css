@@ -20,6 +20,13 @@
     --jogar: #0BC4E2;
     --jogar_active: #aadbe2;
     --menu: #00012262;
+
+    --desc_azul: #07B1F0;
+    --desc_amarelo: #F0B242;
+    --desc_roxo: #8379FE;
+    --desc_verde: #156C54;
+    --desc_laranja: #FF4500;
+    --desc_amarelo_fraco: #F5EE99;
 }
 
 html,
@@ -43,6 +50,10 @@ main {
 h1 {
     font-size: 80px;
     font-family: var(--font01);
+}
+
+h3.skill_title{
+    font-family: var(--font02);
 }
 
 /*Menu*/
