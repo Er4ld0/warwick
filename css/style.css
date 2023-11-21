@@ -108,8 +108,15 @@ h3.skill_title {
 }
 
 #rune{
-    margin-top: 10px;
+    margin: 20px;
     display: none;
+}
+
+li.menu__links{
+    
+    border-style: solid;
+    border-top: none;
+    border-bottom-color: var(--jogar);
 }
 
 .menu__links:hover {
@@ -363,8 +370,6 @@ a {
 }
 
 .rune__1, .rune__info{
-    margin-top: 30px;
-    
 }
 
 
