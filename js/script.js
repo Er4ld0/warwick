@@ -21,3 +21,11 @@ function clickRune(){
         rune.style.display = 'block'
     }
 }
+
+function clickPrecision(){
+    if (precision.style.display == 'block'){
+        precision.style.display = 'none'
+    } else{
+        precision.style.display = 'block'
+    }
+}

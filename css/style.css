@@ -232,7 +232,7 @@ a {
     border-style: groove;
     border-color: var(--alt_color);
     gap: 0px;
-    padding: 40px;
+    padding: 20px 40px;
     margin-bottom: 40px;
     margin-top: 80px;
 }
@@ -324,7 +324,7 @@ a {
 .runes__type {
     font-family: var(--font02);
     margin: 0;
-    padding: 0;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,7 +372,6 @@ a {
 /*Página de Runas da Rota Escolhida*/
 
 .rune__1-1{
-    margin-top: 50px;
     display: flex;
     align-items: start;
     justify-content: left;
@@ -380,11 +379,21 @@ a {
 }
 
 .rune__1-2{
-    margin: 20px 0 20px 163px;
+    margin: 20px 0 20px 115px;
     display: flex;
     align-items: start;
     justify-content: left;
     gap: 30px;
+}
+
+.precision{
+    display: none;
+}
+
+.precision{
+    
+    border-style: groove;
+    border-color: #0BC4E2;
 }
 
 .rune__1__title{
