@@ -398,3 +398,8 @@ a {
     display: flex;
     gap: 30px;
 }
+
+.rune__info__img{
+    margin-top: 40px;
+    width: 898px;
+}
