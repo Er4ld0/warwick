@@ -12,7 +12,7 @@
 
 :root {
     --font01: 'Beaufort';
-    --font02: 'Spiegel', "Arial Narrow", Arial, sans-serif;
+    --font02: 'Sulphur Point', sans-serif;
     --alt_color: #A98A4E;
     --background: #000913;
     --iniciar: #282828;
@@ -240,8 +240,8 @@ a {
 }
 
 .content__dif__img {
-    max-width: 100%;
-    width: 100px;
+    max-width: 200px;
+    width: 200px;
     height: 10px;
     display: inline-block;
 }
@@ -252,7 +252,7 @@ a {
 
 .content__dif__img__1 {
     display: inline-block;
-    width: 30.6667%;
+    width: 40px;
     height: 100%;
     padding-right: 4%;
     opacity: 1;
@@ -263,7 +263,7 @@ a {
 
 .content__dif__img__2 {
     display: inline-block;
-    width: 30.6667%;
+    width: 40px;
     height: 100%;
     padding-right: 4%;
     opacity: 0.2;
@@ -307,4 +307,42 @@ a {
 
 .skill__demo {
     width: 500px;
+}
+
+/*Configs da Section de Seleção de Rota das Runas*/
+
+.runes__type {
+    font-family: var(--font02);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    gap: 10px;
+    width: 100%;
+    background-color: var(--alt_color);
+    border-radius: 5px;
+}
+
+.runes__role__title {
+    padding: 20px 0 0 25px;
+}
+
+.rune__role__1,
+.rune__role__2 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rune__role__1:hover,
+.rune__role__2:hover {
+    background-color: var(--menu);
+    cursor: pointer;
+}
+
+.rune__role__img__1,
+.rune__role__img__2 {
+    width: 30px;
 }
