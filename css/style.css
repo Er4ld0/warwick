@@ -325,7 +325,7 @@ a {
 }
 
 .runes__role__title {
-    padding: 20px 0 0 25px;
+    padding: 14px 0 0 15px;
 }
 
 .rune__role__1,
@@ -350,6 +350,10 @@ a {
 .rune__role__img__1,
 .rune__role__img__2 {
     width: 30px;
+}
+
+.rune__role__stats__1, .rune__role__stats__2{
+    font-size: 12px;
 }
 
 .rune__1{
