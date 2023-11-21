@@ -184,6 +184,11 @@ a {
     margin-top: 80px;
 }
 
+.info:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 100px rgb(44, 255, 2);
+}
+
 .info__title__1 {
     color: white;
     font-family: var(--font01);
@@ -194,6 +199,10 @@ a {
     position: absolute;
 }
 
+.info__title__1:hover{
+    
+}
+
 .info__title__2 {
     color: white;
     font-family: var(--font01);
@@ -202,6 +211,7 @@ a {
     top: 700px;
     left: 390px;
     position: absolute;
+    
 }
 
 /*Configs da Section da Página Inicial*/
@@ -249,7 +259,6 @@ a {
 .content__info p,
 .content__dif p {
     color: var(--alt_color);
-
 }
 
 .content__info__img {
