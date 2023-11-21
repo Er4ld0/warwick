@@ -13,3 +13,11 @@ function clickRoleTop(){
         rune__2.style.display = 'block'
     }
 }
+
+function clickRune(){
+    if (rune.style.display == 'block'){
+        rune.style.display = 'none'
+    } else{
+        rune.style.display = 'block'
+    }
+}
