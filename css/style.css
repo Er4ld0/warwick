@@ -334,6 +334,11 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: white;
+    background-color: var(--alt_color);
+    border-style: none;
+    font-family: var(--font02);
+    font-size: 15px;
 }
 
 .rune__role__1:hover,
@@ -345,4 +350,46 @@ a {
 .rune__role__img__1,
 .rune__role__img__2 {
     width: 30px;
+}
+
+.rune__1{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+#rune__1{
+    display: none;
+}
+
+.rune__1-1{
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    gap: 30px;
+}
+
+.rune__1-2{
+    margin: 20px 0 20px 163px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    gap: 30px;
+}
+
+.rune__1__title{
+    padding-top: 20px;
+}
+
+.rune__type__1{
+    width: 63px;
+}
+
+.spells{
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
 }
