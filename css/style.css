@@ -316,16 +316,12 @@ a {
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: start;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
     width: 100%;
     background-color: var(--alt_color);
     border-radius: 5px;
-}
-
-.runes__role__title {
-    padding: 14px 0 0 15px;
 }
 
 .rune__role__1,
@@ -364,9 +360,11 @@ a {
     gap: 300px;
 }
 
-#rune__1{
+#rune__1, #rune__2{
     display: none;
 }
+
+/*Página de Runas da Rota Escolhida*/
 
 .rune__1-1{
     margin-top: 50px;
