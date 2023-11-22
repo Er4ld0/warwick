@@ -102,6 +102,18 @@ h3.skill_title {
     font-weight: 800;
 }
 
+.menu__links li{
+    margin-bottom: 15px;
+    background-color: var(--iniciar);
+    border-style: double;
+    border-color: var(--iniciar_active);
+}
+
+.menu__links li:hover{
+    color: white;
+    background-color: var(--alt_color);
+}
+
 .menu__runas{
     height: 25px;
     padding-bottom: 10px;
@@ -113,10 +125,13 @@ h3.skill_title {
 }
 
 .menu__links:hover {
+    color: white;
     cursor: pointer;
-    border-style: double;
-    border-color: var(--alt_color);
+    background-color: var(--menu);
+}
 
+.menu__links:active{
+    background-color: rgba(2, 0, 90, 0.384);
 }
 
 .menu__links__externos {
@@ -128,7 +143,7 @@ h3.skill_title {
 
 }
 
-a {
+a, span{
     color: var(--alt_color);
 }
 
@@ -179,7 +194,7 @@ a {
 
 .info__title:hover{
     cursor: pointer;
-    text-shadow: 1px 1px 100px rgb(44, 255, 2);
+    text-shadow: 1px 1px 40px rgb(43, 255, 0);
 }
 
 .info__title__1 {
