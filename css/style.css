@@ -112,19 +112,10 @@ h3.skill_title {
     display: none;
 }
 
-li.menu__links{
-    
-    border-style: solid;
-    border-top: none;
-    border-bottom-color: var(--jogar);
-}
-
 .menu__links:hover {
-    background-color: var(--iniciar);
     cursor: pointer;
-    border-style: solid;
-    border-top: none;
-    border-bottom-color: var(--jogar);
+    border-style: double;
+    border-color: var(--alt_color);
 
 }
 
@@ -182,9 +173,11 @@ a {
     width: 1104px;
     position: relative;
     margin-top: 80px;
+    border-style: groove;
+    border-color: var(--alt_color);
 }
 
-.info:hover{
+.info__title:hover{
     cursor: pointer;
     text-shadow: 1px 1px 100px rgb(44, 255, 2);
 }
