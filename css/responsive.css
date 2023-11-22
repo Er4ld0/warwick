@@ -1,0 +1,10 @@
+@media (max-width: 735px){
+    body,
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 20px;
+}
+}

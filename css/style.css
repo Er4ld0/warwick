@@ -20,6 +20,7 @@
     --jogar: #0BC4E2;
     --jogar_active: #aadbe2;
     --menu: #00012262;
+    --menu-hover: rgba(0, 6, 185, 0.644);
 
     /*
     --desc_azul: #07B1F0;
@@ -45,6 +46,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
     margin-top: 30px;
     gap: 30px;
 }
@@ -103,31 +105,30 @@ h3.skill_title {
 }
 
 .menu__links li{
-    margin-bottom: 15px;
-    background-color: var(--iniciar);
-    border-style: double;
-    border-color: var(--iniciar_active);
+    margin-bottom: 20px;
+    background-color: var(--menu);
 }
 
 .menu__links li:hover{
     color: white;
-    background-color: var(--alt_color);
+    background-color: var(--menu-hover);
 }
 
 .menu__runas{
+    width: 200px;
     height: 25px;
     padding-bottom: 10px;
 }
 
 #rune{
-    margin: 20px;
+    margin: 25px;
     display: none;
 }
 
 .menu__links:hover {
     color: white;
     cursor: pointer;
-    background-color: var(--menu);
+    background-color: var(--menu-hover);
 }
 
 .menu__links:active{
@@ -145,6 +146,11 @@ h3.skill_title {
 
 a, span{
     color: var(--alt_color);
+    width: 140px;
+}
+
+a:hover{
+    color: white;
 }
 
 #menu__btn__iniciar,
