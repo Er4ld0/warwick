@@ -110,23 +110,23 @@ h3.skill_title {
     font-weight: 800;
 }
 
-.menu__links li{
+.menu__links li {
     margin-bottom: 20px;
     background-color: var(--menu);
 }
 
-.menu__links li:hover{
+.menu__links li:hover {
     color: white;
     background-color: var(--menu-hover);
 }
 
-.menu__runas{
+.menu__runas {
     width: 200px;
     height: 25px;
     padding-bottom: 10px;
 }
 
-#rune{
+#rune {
     margin: 25px;
     display: none;
 }
@@ -137,7 +137,7 @@ h3.skill_title {
     background-color: var(--menu-hover);
 }
 
-.menu__links:active{
+.menu__links:active {
     background-color: rgba(2, 0, 90, 0.384);
 }
 
@@ -150,12 +150,13 @@ h3.skill_title {
 
 }
 
-a, span{
+a,
+span {
     color: var(--alt_color);
     width: 140px;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
@@ -205,7 +206,7 @@ a:hover{
     border-color: var(--alt_color);
 }
 
-.info__title:hover{
+.info__title:hover {
     cursor: pointer;
     text-shadow: 1px 1px 40px rgb(43, 255, 0);
 }
@@ -220,9 +221,7 @@ a:hover{
     position: absolute;
 }
 
-.info__title__1:hover{
-    
-}
+.info__title__1:hover {}
 
 .info__title__2 {
     color: white;
@@ -232,7 +231,7 @@ a:hover{
     top: 700px;
     left: 390px;
     position: absolute;
-    
+
 }
 
 /*Configs da Section da Página Inicial*/
@@ -253,7 +252,8 @@ a:hover{
     padding: 80px;
     margin-bottom: 40px;
 }
-.content:hover{
+
+.content:hover {
     box-shadow: 1px 1px 40px rgb(255, 238, 0);
 }
 
@@ -277,7 +277,7 @@ a:hover{
     margin-top: 40px;
 }
 
-.content__2:hover{
+.content__2:hover {
     box-shadow: 1px 1px 40px rgb(255, 238, 0);
 }
 
@@ -364,89 +364,90 @@ a:hover{
 
 /*Configs da Section de Seleção de Rota das Runas*/
 
-.runes{
+.runes {
     display: flex;
     align-items: start;
     justify-content: left;
     gap: 280px;
 }
 
-.runes__type{
-    display: flex; 
-    flex-direction: column;
-    gap: 10px; 
-}
-
-.win-rate{
-    display: flex;
-    gap: 5px;
-}
-
-.win-rate > p{
-    color: green;
-    font-size: 13px;
-}
-
-
-.win-rate__trophy{
-    height: 18px;
-}
-
-.win-rate__stats{
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
-}
-
-.rune__type__tree{
-    display: flex;
-    align-items: start;
-    justify-content: left;
-}
-
-.precision{
-    color: var(--precisao);
-}
-
-.sorcery{
-    color: var(--feitiçaria);
-}
-
-.domination{
-    color: var(--dominaçao);
-}
-
-.resolve{
-    color: var(--determinaçao);
-}
-
-.runes__primary{
-    display: flex;
-    gap: 30px;
-}
-
-.runes__secondary{
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    gap: 30px;
-}
-
-.runes__img{
-    width: 45px;
-}
-
-.runes__img:hover{
-    cursor: pointer;
-}
-
-.spells{
+.runes__type {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.spell__flash, .spell__smite{
+.win-rate {
+    display: flex;
+    gap: 5px;
+}
+
+.win-rate>p {
+    color: green;
+    font-size: 13px;
+}
+
+
+.win-rate__trophy {
+    height: 18px;
+}
+
+.win-rate__stats {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rune__type__tree {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+.precision {
+    color: var(--precisao);
+}
+
+.sorcery {
+    color: var(--feitiçaria);
+}
+
+.domination {
+    color: var(--dominaçao);
+}
+
+.resolve {
+    color: var(--determinaçao);
+}
+
+.runes__primary {
+    display: flex;
+    gap: 30px;
+}
+
+.runes__secondary {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    gap: 30px;
+}
+
+.runes__img {
+    width: 45px;
+}
+
+.runes__img:hover {
+    cursor: pointer;
+}
+
+.spells {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.spell__flash,
+.spell__smite {
     background-color: var(--menu);
     display: flex;
     align-items: center;
@@ -460,7 +461,8 @@ a:hover{
     border-radius: 3px;
 }
 
-.spell__flash > h3, .spell__smite > h3{
+.spell__flash>h3,
+.spell__smite>h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -469,7 +471,7 @@ a:hover{
     width: 110px;
 }
 
-.spell__info{
+.spell__info {
     font-size: 13px;
     display: flex;
     flex-direction: row;
