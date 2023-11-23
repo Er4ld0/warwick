@@ -24,6 +24,8 @@
 
     --precisao: #C4995C;
     --feitiçaria: #A06FF7;
+    --dominaçao: #B3595C;
+    --determinaçao: #346936;
 
     /*
     --desc_azul: #07B1F0;
@@ -271,8 +273,7 @@ a:hover{
     border-color: var(--alt_color);
     gap: 0px;
     padding: 20px 40px;
-    margin-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .content__2:hover{
@@ -410,6 +411,14 @@ a:hover{
     color: var(--feitiçaria);
 }
 
+.domination{
+    color: var(--dominaçao);
+}
+
+.resolve{
+    color: var(--determinaçao);
+}
+
 .runes__primary{
     display: flex;
     
@@ -425,6 +434,10 @@ a:hover{
 
 .runes__img{
     width: 45px;
+}
+
+.runes__img:hover{
+    cursor: pointer;
 }
 
 .spells{
