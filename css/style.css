@@ -22,6 +22,9 @@
     --menu: #00012262;
     --menu-hover: rgb(0, 6, 185);
 
+    --precisao: #C4995C;
+    --feitiçaria: #A06FF7;
+
     /*
     --desc_azul: #07B1F0;
     --desc_amarelo: #F0B242;
@@ -363,17 +366,49 @@ a:hover{
     display: flex;
     align-items: start;
     justify-content: left;
-    gap: 400px;
+    gap: 40px;
 }
 
 .runes__type{
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    gap: 30px;    
+    gap: 10px; 
+}
+
+.win-rate{
+    display: flex;
+    gap: 0px;
+    width: 200px;
+}
+
+.win-rate > p{
+    color: green;
+    font-size: 13px;
+    width: 100px;
+}
+
+
+.win-rate__trophy{
+    height: 18px;
+}
+
+.rune__type__tree{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+.precision{
+    color: var(--precisao);
+}
+
+.sorcery{
+    color: var(--feitiçaria);
 }
 
 .runes__primary{
     display: flex;
+    
     gap: 30px;
 }
 
