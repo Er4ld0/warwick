@@ -366,7 +366,7 @@ a:hover{
     display: flex;
     align-items: start;
     justify-content: left;
-    gap: 40px;
+    gap: 280px;
 }
 
 .runes__type{
@@ -377,19 +377,23 @@ a:hover{
 
 .win-rate{
     display: flex;
-    gap: 0px;
-    width: 200px;
+    gap: 5px;
 }
 
 .win-rate > p{
     color: green;
     font-size: 13px;
-    width: 100px;
 }
 
 
 .win-rate__trophy{
     height: 18px;
+}
+
+.win-rate__stats{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
 }
 
 .rune__type__tree{
@@ -421,4 +425,35 @@ a:hover{
 
 .runes__img{
     width: 45px;
+}
+
+.spells{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.spell__flash, .spell__smite{
+    background-color: var(--iniciar);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    width: 110px;
+    border-style: groove;
+    border-radius: 3px;
+}
+
+.spell__flash > h3, .spell__smite > h3{
+    background-color: var(--menu);
+    width: 110px;
+}
+
+.spell__info{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
