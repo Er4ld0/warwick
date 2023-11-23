@@ -190,12 +190,20 @@ a:hover{
 
 /*Infos da Página Inicial*/
 
+.info__img:hover{
+    box-shadow: 1px 1px 40px rgb(255, 238, 0);
+}
+
 .info__img {
     width: 1104px;
     position: relative;
     margin-top: 80px;
     border-style: groove;
     border-color: var(--alt_color);
+}
+
+.info__img:hover{
+    box-shadow: 1px 1px 40px rgb(255, 238, 0);
 }
 
 .info__title:hover{
