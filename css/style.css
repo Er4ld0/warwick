@@ -422,7 +422,6 @@ a:hover{
 
 .runes__primary{
     display: flex;
-    
     gap: 30px;
 }
 
@@ -448,7 +447,7 @@ a:hover{
 }
 
 .spell__flash, .spell__smite{
-    background-color: var(--iniciar);
+    background-color: var(--menu);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -457,11 +456,16 @@ a:hover{
     padding: 20px;
     width: 110px;
     border-style: groove;
+    border-color: var(--alt_color);
     border-radius: 3px;
 }
 
 .spell__flash > h3, .spell__smite > h3{
-    background-color: var(--menu);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--alt_color);
+    height: 30px;
     width: 110px;
 }
 
