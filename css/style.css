@@ -192,6 +192,7 @@ a:hover{
 
 .info__img {
     width: 1104px;
+    height: 647.953px;
     position: relative;
     margin-top: 80px;
     border-style: groove;
@@ -358,95 +359,31 @@ a:hover{
 
 /*Configs da Section de Seleção de Rota das Runas*/
 
-.runes__type {
-    font-family: var(--font02);
-    margin: 0;
-    padding: 20px;
+.runes{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    background-color: var(--alt_color);
-    border-radius: 5px;
+    align-items: start;
+    justify-content: left;
+    gap: 400px;
 }
 
-.rune__role__1,
-.rune__role__2 {
-    padding: 15px;
+.runes__type{
     display: flex;
-    align-items: center;
-    gap: 10px;
-    color: white;
-    background-color: var(--alt_color);
-    border-style: none;
-    font-family: var(--font02);
-    font-size: 15px;
+    flex-direction: column;
+    gap: 30px;    
 }
 
-.rune__role__1:hover,
-.rune__role__2:hover {
-    background-color: var(--menu);
-    cursor: pointer;
+.runes__primary{
+    display: flex;
+    gap: 30px;
 }
 
-.rune__role__img__1,
-.rune__role__img__2 {
-    width: 30px;
-}
-
-.rune__role__stats__1, .rune__role__stats__2{
-    font-size: 12px;
-}
-
-.rune__1, .rune__info{
-}
-
-
-
-/*Página de Runas da Rota Escolhida*/
-
-.rune__1-1{
+.runes__secondary{
     display: flex;
     align-items: start;
     justify-content: left;
     gap: 30px;
 }
 
-.rune__1-2{
-    margin: 20px 0 20px 115px;
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    gap: 30px;
-}
-
-.precision{
-    display: none;
-}
-
-.precision{
-    
-    border-style: groove;
-    border-color: #0BC4E2;
-}
-
-.rune__1__title{
-    padding-top: 20px;
-}
-
-.rune__type__1{
-    width: 63px;
-    cursor: pointer;
-}
-
-.spells{
-    margin-left: 100px;
-    display: flex;
-    gap: 30px;
-}
-
-.rune__info__img{
-    margin-top: 40px;
-    width: 898px;
+.runes__img{
+    width: 45px;
 }
