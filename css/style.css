@@ -20,7 +20,7 @@
     --jogar: #0BC4E2;
     --jogar_active: #aadbe2;
     --menu: #00012262;
-    --menu-hover: rgba(0, 6, 185, 0.644);
+    --menu-hover: rgb(0, 6, 185);
 
     /*
     --desc_azul: #07B1F0;
@@ -190,20 +190,12 @@ a:hover{
 
 /*Infos da Página Inicial*/
 
-.info__img:hover{
-    box-shadow: 1px 1px 40px rgb(255, 238, 0);
-}
-
 .info__img {
     width: 1104px;
     position: relative;
     margin-top: 80px;
     border-style: groove;
     border-color: var(--alt_color);
-}
-
-.info__img:hover{
-    box-shadow: 1px 1px 40px rgb(255, 238, 0);
 }
 
 .info__title:hover{
@@ -254,6 +246,9 @@ a:hover{
     padding: 80px;
     margin-bottom: 40px;
 }
+.content:hover{
+    box-shadow: 1px 1px 40px rgb(255, 238, 0);
+}
 
 .content__info {
     width: 50%;
@@ -274,6 +269,10 @@ a:hover{
     padding: 20px 40px;
     margin-bottom: 40px;
     margin-top: 80px;
+}
+
+.content__2:hover{
+    box-shadow: 1px 1px 40px rgb(255, 238, 0);
 }
 
 /*Configs do Conteúdo da Section da Página Inicial*/
