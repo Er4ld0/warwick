@@ -197,6 +197,13 @@ a:hover {
 
 /*Infos da Página Inicial*/
 
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .info__img {
     width: 1104px;
     height: 647.953px;
@@ -204,34 +211,31 @@ a:hover {
     margin-top: 80px;
     border-style: groove;
     border-color: var(--alt_color);
+    z-index: 0;
 }
 
-.info__title:hover {
-    cursor: pointer;
+.info__desc {
+    font-family: var(--font01);
+    margin: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.info:hover {
     text-shadow: 1px 1px 40px rgb(43, 255, 0);
 }
 
-.info__title__1 {
-    color: white;
-    font-family: var(--font01);
-    font-weight: bolder;
+.info__sub {
     font-size: 24px;
-    top: 680px;
-    left: 450px;
-    position: absolute;
+    z-index: 1;
 }
 
-.info__title__1:hover {}
-
-.info__title__2 {
-    color: white;
-    font-family: var(--font01);
-    font-weight: bolder;
+.info__title {
     font-size: 94px;
-    top: 700px;
-    left: 390px;
-    position: absolute;
-
+    z-index: 1;
 }
 
 /*Configs da Section da Página Inicial*/
@@ -274,7 +278,7 @@ a:hover {
     border-color: var(--alt_color);
     gap: 0px;
     padding: 20px 40px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 /*Configs do Conteúdo da Section da Página Inicial*/
