@@ -117,7 +117,7 @@ h3.skill_title {
 
 .menu__links li:hover {
     color: white;
-    background-color: var(--menu-hover);
+    background-color: var(--iniciar);
 }
 
 .menu__runas {
@@ -134,7 +134,7 @@ h3.skill_title {
 .menu__links:hover {
     color: white;
     cursor: pointer;
-    background-color: var(--menu-hover);
+    background-color: var(--iniciar);
 }
 
 .menu__links:active {
@@ -255,6 +255,7 @@ a:hover {
     border-color: var(--alt_color);
     gap: 5px;
     padding: 80px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
