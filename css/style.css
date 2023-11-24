@@ -222,9 +222,10 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     color: white;
+    cursor: pointer;
 }
 
-.info:hover {
+.info__desc:hover {
     text-shadow: 1px 1px 40px rgb(43, 255, 0);
 }
 
